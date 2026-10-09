@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A simple ping-pong backend",
+  "license": "ISC",
+  "author": "guddukumar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node ./dist/index.js",
+    "dev": "tsc -b && node ./dist/index.js"
+  },
+  "dependencies": {
+    "@types/ws": "^8.18.2",
+    "typescript": "^7.0.2",
+    "ws": "^8.22.0"
+  }
+}
