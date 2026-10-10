@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-import "./App.css";
 
 function App() {
   const socketRef = useRef<WebSocket | null>(null);
